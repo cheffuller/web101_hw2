@@ -2,12 +2,15 @@ html {
     background-color: rgb(224,222,222);
 }
 
-body {
+body, span {
     margin: 0 auto;
 }
 
-.header {
+.header, .footer {
     display: flex;
+}
+
+.header {
     min-height: 450px;
     background-position: center;
     background-size: cover;
@@ -30,32 +33,28 @@ h2 {
 }
 
 .footer {
-    display: flex;
     min-height: 324px;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
 span, input, textarea {
+    width: 270px;
     font-size: 14px;
 }
 
 span {
     padding: 10px;
-    /* min-width: 250px; */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     line-height: 1.7em;
-    margin: 0 auto;
 }
 
 input, textarea {
-    width: 240px;
     border: none;
 }
 
 .name {
     height: 28px;
-
 }
 
 textarea {
