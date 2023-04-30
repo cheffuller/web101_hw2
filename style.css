@@ -31,7 +31,6 @@ h2 {
 
 .footer {
     display: flex;
-    width: 100%;
     min-height: 324px;
     justify-content: space-between;
     flex-wrap: wrap;
