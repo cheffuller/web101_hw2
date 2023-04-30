@@ -1,10 +1,14 @@
+html {
+    background-color: rgb(224,222,222);
+}
+
 body {
     margin: 0 auto;
 }
 
 .header {
     display: flex;
-    min-height: 500px;
+    min-height: 450px;
     background-position: center;
     background-size: cover;
     background-repeat: none;
@@ -31,7 +35,6 @@ h2 {
     min-height: 324px;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: rgb(224,222,222);
 }
 
 span, input, textarea {
@@ -40,7 +43,7 @@ span, input, textarea {
 
 span {
     padding: 10px;
-    min-width: 250px;
+    /* min-width: 250px; */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     line-height: 1.7em;
     margin: 0 auto;
